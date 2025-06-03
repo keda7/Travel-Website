@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+        .header {
+            height: 100vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://img.freepik.com/free-photo/flat-lay-travel-essentials-with-copy-space_23-2148434438.jpg');
+            background-size: cover;
+
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .navbar {
+            background-color: transparent;
+        }
+        
+        .navbar-nav {
+            margin-left: auto;
+        }
+        
+        .navbar-nav .nav-item {
+            margin-right: 20px;
+        }
+        
+        .about, .contact, .gallery {
+            background-color: transparent;
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
+        }
+        
+        .features {
+            background-color: transparent;
+            padding: 40px 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
+        }
+        
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        .footer {
+            background-color: transparent;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .navbar-nav .nav-item {
+                margin-right: 10px;
+            }
+        }
+        
+        .header .logo {
+            height: 100px;
+            max-width: 100px; 
+            margin-right: auto;/* Adjust logo size as needed */
+            vertical-align: top;
+            float: left;
+            top: 10px;
+            left: 20px;
+        }
+        
+        .header .login-btn {
+            vertical-align: top;
+            float:right;
+            background-color: #337ab7;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        .header .login-btn:hover {
+            background-color: #23527c;
+        }
+        .header h1 {
+            font-size: 36px;
+            margin-top: 20px;
+        }
+        
+        .input-group {
+            margin-top: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .input-group .form-control {
+            border-radius: 0;
+        }
+        
+        .input-group-append .input-group-text-btn {
+            background-color: #337ab7;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .input-group-append .input-group-text-btn:hover {
+            background-color: #23527c;
+        }
+        
+              .features {
+            padding: 40px 0;
+        }
+        
+        .features h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+        
+        .feature-box {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-box .feature-img {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .feature-box .feature-img img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-box .place, .feature-box .price, .feature-box .rating {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        .feature-box h3 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .feature-box p {
+            text-align: justify;
+            line-height: 1.6;
+        }
+        
+        .feature-box .rating i {
+            color: #f39c12; /* Adjust star color */
+        }
+        
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .feature-box {
+                padding: 15px;
+            }
+        
+            .feature-box h3 {
+                font-size: 20px;
+            }
+        }
+       
+   
+    
+    
+    
+   
+
+
+
+
+
+
+
+.header h1 {
+    padding-top: 200px;
+    padding-bottom: 0;
+    font-size: 55px;
+
+    
+
+}
+
+.input-group {
+    margin-top: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input-group .form-control {
+    border-radius: 0;
+}
+
+.input-group-append .input-group-text-btn {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.input-group-append .input-group-text-btn:hover {
+    background-color: #23527c;
+}
+
+/* Featured Destinations Section */
+.features {
+    padding: 40px 0;
+}
+
+.features h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.feature-box {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature-box .feature-img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature-box .feature-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-box .place, .feature-box .price, .feature-box .rating {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.feature-box h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature-box p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.feature-box .rating i {
+    color: #f39c12; /* Adjust star color */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .feature-box {
+        padding: 15px;
+    }
+
+    .feature-box h3 {
+        font-size: 20px;
+    }
+}
+
+
+
